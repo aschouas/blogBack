@@ -1,0 +1,131 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: 白橡树
+subtitle: 一个治疗术
+description: 擅长吹牛，放治疗术
+author: aschouas
+amail: yigezhiliaoshu@163.com
+keywords: "前端,Python，java，html5，开发者，j2ee,极客,Developer,Geek,html,css,css3,mysql"
+language:
+timezone:
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://aschouas.com
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+#permalink_defaults:
+
+# Directory
+#source_dir: source
+#public_dir: public
+#tag_dir: tags
+#archive_dir: archives
+#category_dir: categories
+#code_dir: downloads/code
+#i18n_dir: :lang
+#skip_render:
+source_dir: source
+public_dir: public
+
+# Writing
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link: true
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+#future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: true
+  tab_replace: ''
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+
+# Archives
+## 2: Enable pagination
+## 1: Disable pagination
+## 0: Fully Disable
+archive: 1
+category: 1
+tag: 1
+
+
+# Server
+## Hexo uses Connect as a server
+## You can customize the logger format as defined in
+## http://www.senchalabs.org/connect/logger.html
+port: 4000
+server_ip: localhost
+logger: false
+logger_format: dev
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 8
+pagination_dir: page
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+#theme: next
+theme: yilia
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repository: ssh://git@github.com/aschouas/aschouas.github.io
+  branch: master
+  
+sitemap:
+    path: sitemap.xml
+baidusitemap:
+    path: baidusitemap.xm
+
+feed:
+    type: atom
+    path: atom.xml
+    limit: 100
+  
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: true
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: true
+    tags: true
