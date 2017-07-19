@@ -11,13 +11,13 @@ subnav:
   #facebook: https://www.facebook.com/
   #zhihu: http://zhihu.com/
   #qq: "#"
-  #weixin: "#"
+  weixin: "#"
   #jianshu: "#"
   #douban: "#"
   #segmentfault: "#"
   #bilibili: "#"
   #acfun: "#"
-  #mail: "mailto:litten225@qq.com"
+  mail: "mailto:yigezhiliaoshu@163.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
@@ -112,4 +112,4 @@ friends:
   请发邮件: '#'
   yigezhiliaoshu@163.com: '#'
 
-aboutme: 不低头<br><br>总是仰望天上云彩<br>缓缓飘过
+aboutme: 当浮一大白
